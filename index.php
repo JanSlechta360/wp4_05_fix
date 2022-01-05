@@ -1,8 +1,5 @@
 <?php
-require_once "classes/Animal.php";
-require_once "classes/Cat.php";
-require_once "classes/Dog.php";
-require_once "classes/Snake.php";
+require_once "vendor/autoload.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -26,6 +23,19 @@ $Animal[6] = new Dog("Sprite",4,"white with black spots");
     for ($i=0; $i < count($Animal); $i++) { 
         echo "name" . $Animal[$i]->getName() . " | " . "legs" . $Animal$i]->getLegs() . " <br> ";
     }    
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ?>
 </body>

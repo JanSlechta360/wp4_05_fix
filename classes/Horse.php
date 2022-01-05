@@ -11,7 +11,7 @@ class Horse extends Animal
       $this->Speed = $Speed;
     }
 
-public function getPoisonous() {
-    return $this->Poisonous;
-}
+public function getSpeed() {
+    return $this->Speed;
+    }
 }

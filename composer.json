@@ -1,0 +1,15 @@
+{
+    "name": "slechtos/wp4_05_fix",
+    "autoload": {
+        "classes": {
+            "Slechtos\\Wp405Fix\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "JanSlechta360",
+            "email": "jan.slechta@student.ossp.cz"
+        }
+    ],
+    "require": {}
+}
